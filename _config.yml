@@ -3,5 +3,9 @@ port: 8000
 livereload: true
 
 # Build Settings
-source: src
 destination: build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
