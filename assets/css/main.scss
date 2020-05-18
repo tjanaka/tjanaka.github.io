@@ -1,0 +1,101 @@
+---
+---
+
+//
+// Variables
+//
+
+$base-color: #e6e6e6;
+$primary-color: #e62020;
+
+//
+// Fonts
+//
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url(../fonts/RobotoMono-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+//
+// Layout
+//
+
+body {
+  background-color: black;
+}
+
+.main {
+  color: $base-color;
+  max-width: 800px;
+  margin: 0px auto;
+  font-family: RobotoMono;
+}
+
+.content {
+  border-top: 2px dashed $base-color;
+  border-bottom: 2px dashed $base-color;
+  padding: 20px 0px;
+  font-size: 16px;
+}
+
+//
+// Text
+//
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+a {
+  &:link {
+    color: $base-color;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $base-color;
+    text-decoration: underline;
+  }
+  &:hover {
+    color: black;
+    background-color: $base-color;
+    text-decoration: underline;
+  }
+  &:active {
+    color: $base-color;
+    background-color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+li {
+  padding: 2px 0px;
+}
+
+//
+// Miscellaneous
+//
+
+::selection {
+  background-color: rgba(#c0c0c0, 0.5);
+}

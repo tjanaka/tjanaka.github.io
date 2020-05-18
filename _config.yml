@@ -1,0 +1,11 @@
+# Serve Settings
+port: 8000
+livereload: true
+
+# Build Settings
+destination: build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
