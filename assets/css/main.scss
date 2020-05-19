@@ -12,29 +12,7 @@ $primary-color: #e62020;
 // Fonts
 //
 
-@font-face {
-  font-family: RobotoMono;
-  src: url(../fonts/RobotoMono-Regular.ttf);
-}
-
-@font-face {
-  font-family: RobotoMono;
-  src: url(../fonts/RobotoMono-Bold.ttf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: RobotoMono;
-  src: url(../fonts/RobotoMono-Italic.ttf);
-  font-style: italic;
-}
-
-@font-face {
-  font-family: RobotoMono;
-  src: url(../fonts/RobotoMono-BoldItalic.ttf);
-  font-weight: bold;
-  font-style: italic;
-}
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 //
 // Layout
@@ -48,7 +26,7 @@ body {
   color: $base-color;
   max-width: 800px;
   margin: 0px auto;
-  font-family: RobotoMono;
+  font-family: "Source Code Pro", monospace;
 }
 
 .content {
