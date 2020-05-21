@@ -9,3 +9,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - .gitignore
+
+# URL
+url: https://tjanaka.net
